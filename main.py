@@ -31,7 +31,7 @@ def Maquinas(mensagem):
 def Liberacao_Path(mensagem):
     bot.send_message(mensagem.chat.id, "Clique no link: https://confluence.prosoft.com.br:8061/pages/viewpage.action?pageId=118688219")
 
-#Controle de Licenças
+##Controle de Licenças
 @bot.message_handler(commands=["Licencas"])
 def Licencas(mensagem):
     bot.send_message(mensagem.chat.id, "Clique no link: https://confluence.prosoft.com.br:8061/pages/viewpage.action?pageId=118688234")
